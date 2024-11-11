@@ -1,4 +1,4 @@
-import Task4.Clock;
+import homework1.task4.Clock;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -28,6 +28,7 @@ public class ClockTests {
         Assertions.assertEquals(26, clock1.getMinute());
         Assertions.assertEquals(4, clock1.getHour());
     }
+
     @Test
     void testTickHours() {
         Clock clock1 = new Clock();
@@ -41,9 +42,10 @@ public class ClockTests {
         Assertions.assertEquals(0, clock1.getMinute());
         Assertions.assertEquals(2, clock1.getHour());
     }
+
     @Test
     void testTickDays() {
-    Clock clock1 = new Clock();
+        Clock clock1 = new Clock();
         clock1.setHour(23);
         clock1.setMinute(59);
         clock1.setSecond(59);
@@ -53,5 +55,5 @@ public class ClockTests {
         Assertions.assertEquals(0, clock1.getSecond());
         Assertions.assertEquals(0, clock1.getMinute());
         Assertions.assertEquals(0, clock1.getHour());
-}
     }
+}

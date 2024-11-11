@@ -1,9 +1,9 @@
-package Task1;
+package homework1.task1;
 
 public class Book implements Displayable {
-        private String name;
-        private String author;
-        private int year;
+    private String name;
+    private String author;
+    private int year;
 
     public void setName(String name) {
         this.name = name;

@@ -1,4 +1,4 @@
-package Task2;
+package homework1.task2;
 
 public class Student implements Printable {
     String name;
@@ -31,7 +31,7 @@ public class Student implements Printable {
 
     @Override
     public void print() {
-System.out.println(this.name + "\t" + this.grade + "\t" + this.id);
+        System.out.println(this.name + "\t" + this.grade + "\t" + this.id);
     }
 }
 

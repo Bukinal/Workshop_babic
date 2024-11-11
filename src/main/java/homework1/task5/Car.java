@@ -1,4 +1,4 @@
-package Task5;
+package homework1.task5;
 
 public class Car implements Drivable {
     String model;

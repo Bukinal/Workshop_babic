@@ -1,4 +1,4 @@
-package Task3;
+package homework1.task3;
 
 public class Point implements Movable {
     private int x;

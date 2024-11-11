@@ -1,6 +1,4 @@
-import Task4.Clock;
-import Task5.Car;
-import org.junit.jupiter.api.Assertions;
+import homework1.task5.Car;
 import org.junit.jupiter.api.Test;
 
 public class CarTests {
@@ -17,4 +15,4 @@ public class CarTests {
         System.out.println(car1.getBrand());
     }
 
-    }
+}

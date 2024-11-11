@@ -1,7 +1,5 @@
 package org.example;
 
-import Task1.Book;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -48,6 +46,7 @@ class Student {
         this.age += 1;
 
     }
+
     public void plusHundred() {
         this.age += 100;
 

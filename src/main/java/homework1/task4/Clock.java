@@ -1,4 +1,4 @@
-package Task4;
+package homework1.task4;
 
 public class Clock implements Readable {
     int hour;
