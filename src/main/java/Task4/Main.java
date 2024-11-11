@@ -8,7 +8,9 @@ public class Main {
    Clock clock1 = new Clock();
    clock1.setHour(4);
    clock1.setMinute(25);
-   clock1.setSecond(46);
+   clock1.setSecond(59);
 
+   clock1.tick();
+   clock1.readTime();
 }
 }
