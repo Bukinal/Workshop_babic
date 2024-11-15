@@ -1,0 +1,20 @@
+DELETE http://crudcrud.com/api/420dee294f34400988b543568887ab88/student/6735d92f00892d03e8b4cbd1
+Accept: application/json
+
+###
+GET http://crudcrud.com/api/420dee294f34400988b543568887ab88/student/6735d92f00892d03e8b4cbd1
+Accept: application/json
+
+###
+POST http://crudcrud.com/api/420dee294f34400988b543568887ab88/student
+Content-Type: application/json
+
+{
+  "name": "Artem",
+  "grade": "5"
+}
+
+
+
+
+###
